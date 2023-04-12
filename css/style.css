@@ -27,7 +27,7 @@ body{
 .navbar-menu{
     /* border: 1px var(--colorVerde) solid; */
     margin-top: 2%;
-    border-radius: 20px;
+    border-radius: 25px;
     background: var(--colorGris);
     padding-left: 2%;
     padding-right: 2%;
@@ -104,6 +104,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin-top: 6%;
+    margin-bottom: 6%;
 }
 .circulo-svg{
     width: 155px;
@@ -157,6 +158,15 @@ body{
 }
 /* Gallery y porcentaje end */
 
+/* Gallery imagens */
+
+.cont-gallery-img{
+    /* border: solid 2px red; */
+    width: 100%;
+}
+
+/* END */
+
 /* About me */
 .cont-aboutme{
     /* border: solid 1px red; */
@@ -186,7 +196,7 @@ body{
     border-bottom-right-radius: 20px; */
     box-shadow: #1a1d22 0 5px 20px;
     margin-top: 6%;
-
+    border-radius: 25px;
 }
 .cont-footer p{
     margin: 20px;
